@@ -52,8 +52,8 @@ In this file we define only configuration parameters, for example what kind of c
 #define LANG_de 2
 #define LANG_cs 3
 //! language
-#define LANG LANG_uni
-//#define LANG LANG_de
+//#define LANG LANG_uni
+#define LANG LANG_de
 //#define LANG LANG_cs
 
 // our Version
