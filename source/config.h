@@ -29,8 +29,8 @@
  * \file       config.h
  * \brief      This headerfile only contains information about the configuration of the HR20E and its functionality
  * \author     Juergen Sachs (juergen-sachs-at-gmx-dot-de) Jiri Dobry <jdobry-at-centrum-dot-cz> Thomas Vosshagen (mod. for THERMOTronic) <openhr20-at-vosshagen-dot-com>
- * \date       $Date$
- * $Rev$
+ * \date       $Date: 2010-01-26 19:36:55 +0100 (Di, 26 Jan 2010) $
+ * $Rev: 272 $
  */
 
 /*
@@ -59,10 +59,10 @@ In this file we define only configuration parameters, for example what kind of c
 // our Version
 #define REVHIGH  0  //! Revision number high
 #define REVLOW   99 //! Revision number low
-#define VERSION_N 0xF099 //! Version as HEX value F0.99 (F as free)  
+#define VERSION_N 0xC099 //! Version as HEX value F0.99 (F as free)  
 
 #ifndef REVISION
- #define REVISION "$Rev$"
+ #define REVISION "$Rev: 272 $"
 #endif 
 #define VERSION_STRING  "V: OpenHR20 SW version 0.99 build " __DATE__ " " __TIME__ " " REVISION
 
@@ -78,13 +78,13 @@ In this file we define only configuration parameters, for example what kind of c
 /* #define COM_DEF_ADR 1 */
 #endif
 
-#define DEFAULT_TEMPERATURE 2000 
+#define DEFAULT_TEMPERATURE 2200 
 
 
 // Some default Values
-#define BOOT_DD         1  //!< Boot-Up date: day
-#define BOOT_MM         1  //!< Boot-Up date: month
-#define BOOT_YY         9  //!< Boot-Up date: year
+#define BOOT_DD        15  //!< Boot-Up date: day
+#define BOOT_MM         6  //!< Boot-Up date: month
+#define BOOT_YY        13  //!< Boot-Up date: year
 #define BOOT_hh        12  //!< Boot-Up time: hour
 #define BOOT_mm        00  //!< Boot-Up time: minutes
 
@@ -108,4 +108,3 @@ In this file we define only configuration parameters, for example what kind of c
 
 #endif /* CONFIG_H */
 
-$

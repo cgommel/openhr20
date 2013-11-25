@@ -28,8 +28,8 @@
  * \file       rtc.c
  * \brief      functions to control clock and timers
  * \author     Dario Carluccio <hr20-at-carluccio-dot-de>; Jiri Dobry <jdobry-at-centrum-dot-cz>
- * \date       $Date$
- * $Rev$
+ * \date       $Date: 2010-01-06 21:00:07 +0100 (Mi, 06 Jan 2010) $
+ * $Rev: 263 $
  */
 
 // AVR LibC includes
@@ -75,7 +75,7 @@ static bool    RTC_IsLastSunday(void);     // check actual date if last sun in m
 // Progmem constants
 
 //! day of month for each month from january to december
-uint8_t RTC_DayOfMonthTablePrgMem[] PROGMEM =
+const uint8_t RTC_DayOfMonthTablePrgMem[] PROGMEM =
 {
     31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31
 };

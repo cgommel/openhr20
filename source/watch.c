@@ -27,8 +27,8 @@
  * \file       watch.h
  * \brief      watch variable for debug
  * \author     Jiri Dobry <jdobry-at-centrum-dot-cz>
- * \date       $Date$
- * $Rev$
+ * \date       $Date: 2009-03-24 12:52:18 +0100 (Di, 24 Mrz 2009) $
+ * $Rev: 224 $
  */
 
 #include <stdint.h>
@@ -48,7 +48,7 @@
 int16_t MOTOR_PosMax;
 
 
-static uint16_t watch_map[WATCH_N] PROGMEM = {
+static const uint16_t watch_map[WATCH_N] PROGMEM = {
     /* 00 */ ((uint16_t) &temp_average) + B16, // temperature 
     /* 01 */ ((uint16_t) &bat_average) + B16,  // battery 
     /* 02 */ ((uint16_t) &sumError) + B16,
