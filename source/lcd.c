@@ -142,7 +142,7 @@ const uint8_t LCD_CharTablePrgMem[] PROGMEM =
   };
 #elif LANG==LANG_de
   // Look-up chars table for LCD strings (german)
-  uint8_t LCD_StringTable[][4] PROGMEM =
+  const uint8_t LCD_StringTable[][4] PROGMEM =
   {
       {32, 1,22, 7},    //!<  " 1-7" 
       {33,34,31,32},    //!<  Montag:     'rno '
@@ -166,7 +166,7 @@ const uint8_t LCD_CharTablePrgMem[] PROGMEM =
   };
 #elif LANG==LANG_cs
   // Look-up chars table for LCD strings (czech)
-  uint8_t LCD_StringTable[][4] PROGMEM =
+  const uint8_t LCD_StringTable[][4] PROGMEM =
   {
       {32, 1,22, 7},    //!<  " 1-7" 
       {32,18,31,22},    //!<  " Po "
